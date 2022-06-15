@@ -2,7 +2,8 @@
     --title-color: #212121;
     --text-color: #757575;
     --accent-color: #2196f3;
-    --bg-color: #2f303a;
+    --bg-color-one: #2f303a;
+    --bg-color-two: #f5f4fa;
     --button-hover: #188CE8;
 }
 
@@ -87,7 +88,7 @@ main {
 
 /* section 1 */
 .cap {
-    background-color: var(--bg-color);
+    background-color: var(--bg-color-one);
 }
 
 .cap-title {
@@ -164,6 +165,40 @@ main {
     list-style-type: none;
 }
 
-.what-we-do-item {
+.what-we-do-item, .our-team-item {
     display: inline-block;
+}
+
+/* section 4 */
+.our-team {
+    background-color: var(--bg-color-two);
+}
+
+.our-team-list {
+    list-style-type: none;
+}
+
+.our-team-item {
+    background-color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-name {
+    color: var(--title-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.our-team-post {
+    color: var(--text-color);
+
+    font-size: 16px;
+    line-height: 1,2;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
