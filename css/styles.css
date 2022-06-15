@@ -1,0 +1,79 @@
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196f3;
+}
+
+
+/* --- INDEX.HTML --- */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -HEADER- */
+header {
+    background-color: white;
+}
+
+.logo-header {
+    color: black;
+    text-decoration: none;
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+}
+
+.first-word {
+    color: var(--accent-color);
+    text-decoration: none;
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+}
+
+.menu-nav-item {
+    list-style-type: none;
+}
+
+.menu-nav-link {
+    color: var(--title-color);
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,15;
+    letter-spacing: 0.02em;
+}
+
+.menu-nav-link:hover, .header-address-link:hover {
+    color: var(--accent-color);
+}
+
+.menu-nav-link-current {
+    color: var(--accent-color);
+    text-decoration: none;
+    
+    font-weight: 500;
+        font-size: 14px;
+    line-height: 1, 15;
+    letter-spacing: 0.02em;
+}
+
+.header-address-link {
+    color: var(--text-color);
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 15;
+    letter-spacing: 0.02em;
+}
+
