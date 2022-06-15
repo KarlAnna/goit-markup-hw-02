@@ -148,3 +148,22 @@ main {
     line-height: 1,7;
     letter-spacing: 0.03em;
 }
+
+/* section 3 */
+.what-we-do-title, .our-team-title {
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.what-we-do-list {
+    list-style-type: none;
+}
+
+.what-we-do-item {
+    display: inline-block;
+}
