@@ -41,7 +41,7 @@ header {
     letter-spacing: 0.03em;
 }
 
-.menu-nav-item {
+.menu-nav {
     list-style-type: none;
 }
 
@@ -81,6 +81,10 @@ header {
 
 /* -MAIN- */
 
+main {
+    background-color: white;
+}
+
 /* section 1 */
 .cap {
     background-color: var(--bg-color);
@@ -118,4 +122,29 @@ header {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+}
+
+/* section 2 */
+
+.characteristics-list {
+    list-style-type: none;
+}
+
+.characteristics-subtitle {
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.characteristics-text {
+    color: var(--text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7;
+    letter-spacing: 0.03em;
 }
