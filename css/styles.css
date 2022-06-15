@@ -4,7 +4,7 @@
     --accent-color: #2196f3;
     --bg-color-one: #2f303a;
     --bg-color-two: #f5f4fa;
-    --button-hover: #188CE8;
+    --button-hover: #188ce8;
 }
 
 
@@ -20,7 +20,7 @@ header {
     background-color: white;
 }
 
-.logo-header {
+.logo-header, .logo-footer {
     color: black;
     text-decoration: none;
 
@@ -56,7 +56,7 @@ header {
     letter-spacing: 0.02em;
 }
 
-.menu-nav-link:hover, .header-address-link:hover {
+.menu-nav-link:hover, .header-address-link:hover, .footer-address-link:hover {
     color: var(--accent-color);
 }
 
@@ -200,5 +200,32 @@ main {
     font-size: 16px;
     line-height: 1,2;
     text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* -FOOTER- */
+
+footer {
+    background-color: var(--bg-color-one);
+}
+
+.logo-footer {
+    color: white;
+}
+
+.footer-address {
+    color: white;
+
+    font-size: 14px;
+    line-height: 1,7;
+    letter-spacing: 0.03em;
+}
+
+.footer-address-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+
+    font-size: 14px;
+    line-height: 1,7px;
     letter-spacing: 0.03em;
 }
