@@ -2,8 +2,8 @@
     --title-color: #212121;
     --text-color: #757575;
     --accent-color: #2196f3;
-    --bg-color-one: #2f303a;
-    --bg-color-two: #f5f4fa;
+    --bg-color-gray: #2f303a;
+    --bg-color-section: #f5f4fa;
     --button-hover: #188ce8;
 }
 
@@ -92,7 +92,7 @@ main {
 
 /* section 1 ------------------------------------------------------> */
 .cap {
-    background-color: var(--bg-color-one);
+    background-color: var(--bg-color-gray);
 }
 
 .cap-title {
@@ -175,7 +175,7 @@ main {
 
 /* section 4 ------------------------------------------------------> */
 .our-team {
-    background-color: var(--bg-color-two);
+    background-color: var(--bg-color-section);
 }
 
 .our-team-list {
@@ -210,7 +210,7 @@ main {
 /** FOOTER **/
 
 footer {
-    background-color: var(--bg-color-one);
+    background-color: var(--bg-color-gray);
 }
 
 .logo-footer {
