@@ -211,15 +211,20 @@ main {
 
 footer {
     background-color: var(--bg-color-gray);
+    font-style: normal;
 }
 
 .logo-footer {
     color: white;
 }
 
+address {
+    font-style: normal;
+}
+
 .footer-address {
     color: white;
-
+    
     font-size: 14px;
     line-height: 1,7;
     letter-spacing: 0.03em;
