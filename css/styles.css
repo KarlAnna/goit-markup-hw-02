@@ -25,7 +25,7 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
@@ -36,7 +36,7 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
@@ -50,7 +50,7 @@ body {
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,15;
+    line-height: 1.15;
     letter-spacing: 0.02em;
 }
 
@@ -64,7 +64,7 @@ body {
     
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,15;
+    line-height: 1.15;
     letter-spacing: 0.02em;
 }
 
@@ -74,7 +74,7 @@ body {
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,15;
+    line-height: 1.15;
     letter-spacing: 0.02em;
 }
 
@@ -98,7 +98,7 @@ hr {
 
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -120,7 +120,7 @@ hr {
 
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
@@ -138,7 +138,7 @@ hr {
 
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,15;
+    line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -148,7 +148,7 @@ hr {
 
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
@@ -158,13 +158,9 @@ hr {
 
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-}
-
-.what-we-do-list {
-    list-style-type: none;
 }
 
 .what-we-do-item, .our-team-item {
@@ -191,7 +187,7 @@ hr {
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,2;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -200,7 +196,7 @@ hr {
     color: var(--text-color);
 
     font-size: 16px;
-    line-height: 1,2;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -224,7 +220,7 @@ address {
     color: white;
     
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
@@ -233,7 +229,7 @@ address {
     text-decoration: none;
 
     font-size: 14px;
-    line-height: 1,7px;
+    line-height: 1.7px;
     letter-spacing: 0.03em;
 }
 
@@ -250,9 +246,10 @@ address {
     border-color: rgba(255, 255, 255, 0);
 
     color: var(--title-color);
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -280,6 +277,6 @@ address {
 .projects-list-item-text {
     color: var(--text-color);
     font-size: 16px;
-    line-height: 1,85px;
+    line-height: 1.85px;
     letter-spacing: 0.03em;
 }
